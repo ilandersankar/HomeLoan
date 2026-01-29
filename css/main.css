@@ -1,0 +1,36 @@
+.bg-danger{
+    background: #f5511e !important;
+}
+.text-danger{
+    color:#f5511e !important
+}
+#banner img{
+    height: 500px;
+}
+#news img{
+    width: 100%;
+    height: 250px;
+    transition: all ease 1s;
+}
+.title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #f5511e;
+    margin:10px auto;
+    border-radius: 10px;
+}
+.copy{
+    background: #141416;
+}
+
+#news img:hover{
+    transform: translate(0px,50px);
+    transform: rotate(180deg);
+    transform: scale(2,2);
+    transform: rotateZ(360deg);
+}
+#news .parent{
+    overflow: hidden;
+}
